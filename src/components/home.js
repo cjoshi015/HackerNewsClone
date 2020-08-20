@@ -8,7 +8,7 @@ class Home extends Component{
         return(
             <div>
                  <Navbar className="navbar-color" expand="lg">
-                <Navbar.Brand href="home">
+                <Navbar.Brand href="/">
                     <img src={icon} className="logoimg" alt="Logoimg"/>
                     Hacker News
                 </Navbar.Brand>
