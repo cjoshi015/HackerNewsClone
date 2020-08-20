@@ -36,3 +36,41 @@
     transform: rotate(360deg);
   }
 }
+.navbar-color{
+  background-color: #FF6600;  
+}
+
+.navbar-menu-color{
+  color: black;
+}
+
+.navbar-menu{
+  color: black;
+  
+}
+
+.navbar{
+  height:  50%;
+}
+
+.data-style{
+  background-color: #F6F6EF;
+}
+
+.wrapperclass{
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  overflow: hidden;
+  padding-bottom: 200px;
+}
+
+.cursorchange{
+  cursor: pointer;
+}
+
+.logoimg{
+  margin-bottom: 5px;
+  margin-right: 10px;
+}
