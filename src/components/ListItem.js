@@ -9,8 +9,13 @@ const ListItem =({title,url,author,points,num_comments,objectID,created_at,hidee
     const hn_root = 'https://news.ycombinator.com'
     const hn_user  = `${hn_root}/user?id=${author}`;
     const site = getsitename(url) || 'new.ycombinator.com';
-    var count = localStorage.getItem(objectID); 
-    localStorage.setItem(objectID,count);
+    var count = localStorage.getItem(objectID);
+    if(count==null){
+        localStorage.setItem(objectID,0);
+    }else{
+        localStorage.setItem(objectID,count);
+    };
+    
     
     return(
 
